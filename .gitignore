@@ -1,0 +1,42 @@
+# Python #
+###########
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Virtual Environments #
+######################
+venv/
+env/
+.venv/
+.env/
+
+
+# Generated Project Files #
+###########################
+# Ignore the directory where character images are saved
+segmented_characters
+/ocr_dataset
+/images
+/ocr_venv
+# Ignore specific output images from the preprocessing script
+final_binary_output.png
+
+
+# IDE / Editor Settings #
+#########################
+.vscode/
+.idea/
+
+
+# Operating System Files #
+##########################
+.DS_Store
+Thumbs.db
+
+
+# Log Files #
+#############
+*.log
