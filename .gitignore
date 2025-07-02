@@ -21,6 +21,16 @@ segmented_characters
 /ocr_dataset
 /images
 /ocr_venv
+/Dataset
+*.mp4
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+
 # Ignore specific output images from the preprocessing script
 final_binary_output.png
 
